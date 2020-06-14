@@ -12,7 +12,7 @@ name: C++ Tooling
 # building when CI files from other services change.
 on:
   push:
-    branches: [ 'master' ]
+    branches: [ 'master', 'develop' ]
     paths-ignore: [
       '.circleci/**',
       '.cirrus.yml',
